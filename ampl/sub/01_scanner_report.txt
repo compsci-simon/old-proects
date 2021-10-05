@@ -1,0 +1,34 @@
+================================================================================
+                     RW244: SCANNER SUBMISSION REPORT 2020
+================================================================================
+
+--------------------------------------------------------------------------------
+1. Briefly list any known bugs and limitations in your scanner.
+--------------------------------------------------------------------------------
+
+	[None.]
+--------------------------------------------------------------------------------
+2. Describe whatever help you have received from other people.  Write down their
+   names (including the lecturer, demis, classmates, and friends).
+--------------------------------------------------------------------------------
+
+   [I spoke to Jean Durand quite a bit discussing how to approach the project.]
+
+--------------------------------------------------------------------------------
+3. Describe any serious problems you have encountered.
+--------------------------------------------------------------------------------
+
+   [I struggled quite a bit with the process_string because even when i did not
+   allocate enough memory I would not get a seg fault which is very strange. I
+   don't understand why when I allocate only 1 space in memory with malloc why
+   it does not throw an error if i fill this memory up with a strig much larger
+   than one.]
+
+--------------------------------------------------------------------------------
+4. Feel free to provide any additional comments.
+--------------------------------------------------------------------------------
+
+   [The project is cool and i had fun working on the scanner. Thank you for the
+   cool project!]
+
+================================================================================

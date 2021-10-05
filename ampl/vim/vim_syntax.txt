@@ -1,0 +1,13 @@
+To link the the AMPL vim syntax file to your personal vim configuration (and,
+first, to ensure the necessary directories exist), execute the following on the
+command line (from the current directory):
+
+mkdir -p ~/.vim/syntax && ln -s $PWD/ampl.vim ~/.vim/syntax/
+
+Now, the syntax file is available in your account, but it will not be loaded
+automatically when you open or read an AMPL file.  Do the following on the
+command line to ensure that the lexer is automatically applied to files with
+the file extension ".ampl":
+
+echo -e '" AMPL\nau BufRead,BufNewFile *.ampl setfiletype ampl' >> ~/.vim/filetype.vim
+echo -e 'au FileType ampl set autoindent expandtab softtabstop=2 shiftwidth=2 tabstop=2 textwidth=80' >> ~/.vim/filetype.vim
